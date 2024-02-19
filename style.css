@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+
+
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-size: 1000px;
+  background-image: url("https://img.freepik.com/premium-photo/birthday-vibes-copy-space-mockup_910325-2598.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699660800&semt=ais");
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.paper {
+  background-image: url("https://img.freepik.com/free-photo/painted-solid-concrete-wall-textured-background_53876-101653.jpg?w=996&t=st=1708376206~exp=1708376806~hmac=feaaf6935350e5ea9b52d4eeb24eca6fc11c161c188cb28e22c783eb67a6eeae");
+  background-size: 500px;
+  background-position: center center;
+  padding: 20px 100px;
+/*  min-width: 800px; */
+  
+  transform: rotateZ(-5deg);
+  box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
+  
+  position: absolute;
+}
+
+.paper.heart {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.paper.image {
+  padding: 8px;
+}
+.paper.image p {
+  font-size: 20px;
+}
+
+img {
+  max-height: 280px;
+  width: 100%;
+  user-select: none;
+}
+
+.paper.heart::after {
+  content: "";
+  background-image: url('/images/IMG-20240220-WA0012.jpg');
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: 150px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+p {
+  font-family: 'Zeyada';
+  font-size: 50px;
+  color: rgb(236, 236, 239);
+  opacity: 0.75;
+  user-select: none;
+  
+  // filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
+}
