@@ -39,14 +39,14 @@ body {
 }
 
 .paper.image {
-  padding: 8px;
+  padding: 10px;
 }
 .paper.image p {
   font-size: 2.5rem;
 }
 
 img {
-  max-height: 500px;
+  max-height: 725px;
   width: 100%;
   user-select: none;
 }
